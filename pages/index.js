@@ -5,6 +5,7 @@ export default function Home({ rentProperties, buyProperties }) {
   return (
     <>
       <Banner />
+      {/* property rent section */}
       <section className="mt-10 p-4">
         <h1 className="text-2xl mb-3 font-semibold uppercase">
           Properties for Rent
@@ -15,6 +16,7 @@ export default function Home({ rentProperties, buyProperties }) {
           ))}
         </div>
       </section>
+      {/* property buy section */}
       <section className="mt-10 p-4">
         <h1 className="text-2xl mb-3 font-semibold uppercase">
           Properties for Sell
