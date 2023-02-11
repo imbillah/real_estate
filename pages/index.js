@@ -33,10 +33,12 @@ export default function Home({ rentProperties, buyProperties }) {
 
 export async function getStaticProps() {
   const buyProperty = await fetchData(
-    `${baseUrl}/properties/list?locationExternalIDs=5002&purpose=for-sale`
+    `${baseUrl}/properties/list?locationExternalIDs=5002&purpose=for-sale`,
+    "7"
   );
   const rentProperty = await fetchData(
-    `${baseUrl}/properties/list?locationExternalIDs=5002&purpose=for-rent`
+    `${baseUrl}/properties/list?locationExternalIDs=5002&purpose=for-rent`,
+    "8"
   );
 
   return {
