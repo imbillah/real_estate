@@ -4,7 +4,7 @@ import Link from "next/link";
 const Navbar = () => {
   return (
     <>
-      <nav className="flex items-center justify-between p-4 bg-gray-200 text-gray-700">
+      <nav className="flex items-center justify-between p-4 bg-gray-200 text-blue-600">
         <Link href="/" passHref>
           <h1 className="text-2xl font-semibold ">RentVista</h1>
         </Link>

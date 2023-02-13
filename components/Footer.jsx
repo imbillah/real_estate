@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <>
       <hr className="mt-8" />
-      <div className="p-4 bg-gray-200 text-center">
+      <div className="p-4 bg-gray-200 text-center text-blue-600">
         <h2>&copy;Rent Vista 2023</h2>
       </div>
     </>

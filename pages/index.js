@@ -6,8 +6,8 @@ export default function Home({ rentProperties, buyProperties }) {
     <>
       <Banner />
       {/* property rent section */}
-      <section className="mt-10 p-4">
-        <h1 className="text-2xl mb-3 font-semibold uppercase">
+      <section className="mt-10 container mx-auto">
+        <h1 className="text-2xl mb-3 font-semibold uppercase text-blue-600">
           Properties for Rent
         </h1>
         <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-5">
@@ -17,8 +17,8 @@ export default function Home({ rentProperties, buyProperties }) {
         </div>
       </section>
       {/* property buy section */}
-      <section className="mt-10 p-4">
-        <h1 className="text-2xl mb-3 font-semibold uppercase">
+      <section className="mt-10  container mx-auto">
+        <h1 className="text-2xl mb-3 font-semibold uppercase text-blue-600">
           Properties for Sell
         </h1>
         <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-5">
